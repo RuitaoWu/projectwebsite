@@ -6,12 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/style.css">
-    
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/header.css">
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <title>CalTrans Project: AI-VeDe</title>
 </head>
 <body>
+
+  <header>
+    
+  <div class="overlay">
     <h1>AI-VeDe</h1>
     <h3>Artificial Intelligence Vehicle Detector</h3>
+    <video id="background-video" autoplay loop muted>
+      <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
+    </video>
+  </div>
+  </header>
     <nav>
         <a href="#project-intro">Home</a>
         <a href="#team-members">Team</a>
@@ -30,10 +43,10 @@
         <a href="https://github.com/RuitaoWu/CalTransProjLearningModel" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"></i>  GitHub</a>
     </section>
     <section id="team-members">
-        <h1>Team Members</h1>
+        <h1 class="sectiontitle">Team Members</h1>
         <div class="card">
             <a href="#"><i class="fa fa-male fa-4x" aria-hidden="true"></i></a>
-            <h1>Ruitao Wu</h1>
+            <h1 class="sectiontitle">Ruitao Wu</h1>
             <p class="title">Team Leader</p>
             <p>California State University, Northridge</p>
             <a href="https://github.com/RuitaoWu" target="blank"><i class="fa fa-github"></i></a>
@@ -44,7 +57,7 @@
         <!-- 2nd -->
         <div class="card">
             <a href=""><i class="fa fa-female fa-4x" aria-hidden="true"></i></a>
-            <h1>Xin Gao</h1>
+            <h1 class="sectiontitle">Xin Gao</h1>
             <p class="title">Front-end developer</p>
             <p>California State University, Northridge</p>
             <a href="#"><i class="fa fa-github"></i></a>
@@ -55,7 +68,7 @@
          <!-- 3rd -->
          <div class="card">
             <a href="#"><i class="fa fa-male fa-4x" aria-hidden="true"></i></a>
-            <h1>Gustavo Sanchez</h1>
+            <h1 class="sectiontitle">Gustavo Sanchez</h1>
             <p class="title">Machine Learning</p>
             <p>California State University, Northridge</p>
             <a href="#"><i class="fa fa-github"></i></a>
@@ -66,7 +79,7 @@
          <!-- 4th -->
          <div class="card">
             <a href="#"><i class="fa fa-male fa-4x" aria-hidden="true"></i></a>
-            <h1>Cesar Villa</h1>
+            <h1 class="sectiontitle">Cesar Villa</h1>
             <p class="title">Back-end developer</p>
             <p>California State University, Northridge</p>
             <a href="#"><i class="fa fa-github"></i></a>
@@ -77,7 +90,7 @@
          <!-- 5th -->
          <div class="card">
             <a href="#"><i class="fa fa-male fa-4x" aria-hidden="true"></i></a>
-            <h1>Ziaur Chowdhury</h1>
+            <h1 class="sectiontitle">Ziaur Chowdhury</h1>
             <p class="title">Data acquisition</p>
             <p>California State University, Northridge</p>
             <a href="#"><i class="fa fa-github"></i></a>
@@ -87,7 +100,7 @@
         </div>
     </section>
     <section id="techused" >
-        <h1>Technologies Used</h1>
+        <h1 class="sectiontitle">Technologies Used</h1>
         <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -170,8 +183,93 @@
         <p>Videos</p>
     </section>
     <script src="src/script.js"></script>
+    <footer class="footer">
+      <div class="footer__addr">
+        <img class="footlogo" src="image/CSUN_Seal.png" alt="csun seals">
+        <img src="image/CSU_Northridge_logo.svg" alt="">
+        <h2>Contact</h2>
+        
+        <address>
+          18111 Nordhoff Street, Northridge, CA 91330<br>
+              
+          <a class="footer__btn" href="https://www.csun.edu" target="blank" >Contact Us</a>
+        </address>
+      </div>
+      
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title">Media</h2>
+    
+          <ul class="nav__ul">
+            <li class="fa fa-youtube fa-2x">
+              <a href="https://www.youtube.com/user/CalStateNorthridge" target="blank"></a>
+            </li>
+    
+            <li class="fa fa-facebook fa-2x">
+              <a href="https://www.facebook.com/calstatenorthridge" target="blank"></a>
+            </li>
+            <li class="fa fa-instagram fa-2x">
+              <a href="https://www.instagram.com/csun_edu/" target="blank"></a>
+            </li>
+            <li class="fa fa-twitter fa-2x">
+              <a href="https://twitter.com/csunorthridge" target="blank"></a>
+            </li>
+          </ul>
+        </li>
+        
+        <li class="nav__item nav__item--extra">
+          <h2 class="nav__title">Inside CSUN</h2>
+          
+          <ul class="nav__ul nav__ul--extra">
+            <li>
+              <a href="https://www.885fm.org/" target="blank">88.5 FM</a>
+            </li>
+            
+            <li>
+              <a href="https://www.thesoraya.org/" target="blank">The Soraya</a>
+            </li>
+            
+            <li>
+              <a href="https://www.csun.edu/foundation/" target="blank">Foundation</a>
+            </li>
+            
+            <li>
+              <a href="https://sundial.csun.edu/" target="blank">Sundial</a>
+            </li>
+            
+            <li>
+              <a href="https://www.csun.edu/calendar/" target="blank">Event</a>
+            </li>
+            
+            <li>
+              <a href="https://www.csun.edu/alumni" target="blank">Alumni</a>
+            </li>
+          </ul>
+        </li>
+        
+        <li class="nav__item">
+          <h2 class="nav__title">Legal</h2>
+          
+          <ul class="nav__ul">
+            <li>
+              <a href="https://www.csun.edu/it/privacy" target="blank">Privacy Policy</a>
+            </li>
+            
+            <li>
+              <a href="https://www.csun.edu/sites/default/files/900-12.pdf" target="blank">Terms of Use</a>
+            </li>
+            
+            <li>
+              <a href="https://www.csun.edu/it/document-viewers" target="blank">Document Viewers</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      
+      <div class="legal">
+        <p>&copy; 2022 All rights reserved.</p>
+      </div>
+    </footer>
 </body>
-<footer id="footer">
-    &copy; Copyright 2022 All Rights Reserved
-</footer>
+
 </html>

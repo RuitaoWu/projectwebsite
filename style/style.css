@@ -8,7 +8,7 @@ section{
     font-size: 0;
 }
 #team-members{
-    height: 880px;
+    height: 830px;
 }
 #project-intro{
     height: auto;
@@ -19,7 +19,7 @@ section{
   padding-bottom: 10px;
 }
 #techused{
-    height: 720px;
+    height: 750px;
 }
 nav{
     margin: 27px auto 0;
@@ -123,7 +123,7 @@ nav{
       font-family: 'Cherry Swash',cursive;
       font-size: 16px;
   }
-  h1{
+  .sectiontitle{
         font-family: 'Cherry Swash',cursive;
         font-size: 30px;
         color: #ecf0f1;
@@ -136,6 +136,7 @@ nav{
         text-align: center;
   }
   #footer {
+    float: left;
     margin-top: 10px;
     position: absolute;
     width: 100%;
