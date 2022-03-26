@@ -24,6 +24,9 @@ section{
 #skillsused{
     height: 300px;
 }
+#imagesdemo{
+  height: 800px;
+}
 .testcase{
     list-style-type: none;
     font-size: 20px;
