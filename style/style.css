@@ -21,9 +21,15 @@ section{
 #techused{
     height: 750px;
 }
+#skillsused{
+    height: 300px;
+}
+.testcase{
+    list-style-type: none;
+    font-size: 20px;
+}
 nav{
     margin: 27px auto 0;
-  
     position: relative;
     width: 80%;
     height: 50px;
