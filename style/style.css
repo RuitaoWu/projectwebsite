@@ -27,6 +27,15 @@ section{
 #imagesdemo{
   height: 800px;
 }
+#videodemo{
+  height: 600px;
+}
+#videodemo video{
+  width: 90%;
+  height: 78%;
+  position:absolute;
+  left:5%;
+}
 .testcase{
     list-style-type: none;
     font-size: 20px;
